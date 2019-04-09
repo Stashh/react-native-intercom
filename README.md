@@ -1,6 +1,9 @@
 # react-native-intercom
 React Native wrapper for Intercom.io. Based off of [intercom-cordova](https://github.com/intercom/intercom-cordova)
 
+This fork fixes an issue highlighted on [here](https://github.com/tinycreative/react-native-intercom/issues/40). This removes unnecessary 
+framework header search path that causes problem when rebuilding iOS project.
+
 # Installation Guide
 
 1. [Install Intercom for iOS](https://developers.intercom.com/installing-intercom/docs/ios-installation) via whichever method you prefer.
